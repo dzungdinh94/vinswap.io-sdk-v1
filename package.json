@@ -1,6 +1,6 @@
 {
   "name": "@vinswap.io/v1-sdk",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "SDK for use any functions of vinswap v1 Protocol",
   "repository": {
     "type": "git",
