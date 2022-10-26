@@ -1,19 +1,22 @@
 {
-  "name": "@animeswap.org/v1-sdk",
+  "name": "@vinswap.io/v1-sdk",
   "version": "1.0.0",
-  "description": "SDK for use any functions of AnimeSwap v1 Protocol",
-  "repository": "https://github.com/AnimeSwap/v1-sdk",
+  "description": "SDK for use any functions of vinswap v1 Protocol",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dzungdinh94/v1-sdk.git"
+  },
   "license": "GPL-3.0-or-later",
   "keywords": [
-    "animeswap",
+    "vinswap",
     "defi",
     "swap",
     "aptos",
     "v1",
     "sdk"
   ],
-  "engines" : { 
-    "node" : ">=16.0.0"
+  "engines": {
+    "node": ">=16.0.0"
   },
   "main": "./dist/tsc/main.js",
   "types": "./dist/tsc/main.d.ts",
@@ -43,5 +46,10 @@
     "aptos": "^1.3.16",
     "axios": "^1.1.3",
     "decimal.js": "^10.4.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/dzungdinh94/v1-sdk/issues"
+  },
+  "homepage": "https://github.com/dzungdinh94/v1-sdk#readme",
+  "author": "dzungdinh94"
 }
